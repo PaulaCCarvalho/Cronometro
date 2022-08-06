@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --second-color: #fffff0;
+    --red-color: #ff9d95;
+    --second-color-transp: #03020ad2;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/background.jpg') ;
+    background-size: cover;
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.back{
+    margin: 60px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    background: var(--second-color-transp);
+    padding: 5px;
+    border-radius: 40px;
+}
+
+#title{
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    line-height: 1.5em;
+    color: var(--second-color);
+    text-align: center;
+}
+
+.timer{
+    margin: 0;
+    padding: 0;
+    font-size: 8em;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button{
+    font-family: 'Lobster', sans-serif;
+    color: #000000;
+    font-size: 26px;
+    padding: 10px 26px;
+    border-radius: 40px;
+    border: 0.3px outset;
+    background: #EDEDED;
+    margin: 10px;
+}
+
+button:hover {
+    color: #000000;
+    background: #919191;
+}
+
+.pausado{
+    color: var(--red-color);
+}
