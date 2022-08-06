@@ -1,4 +1,4 @@
-# Cronometro
+# Cronômetro
 
 ### Descrição
 Aplicação web desenvolvida com HTML, CSS e JavaScript que tem por objetivo cronometrar o tempo.
